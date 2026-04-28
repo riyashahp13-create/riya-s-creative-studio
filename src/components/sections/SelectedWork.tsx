@@ -9,7 +9,10 @@ import asli from '@/assets/proj-asli.jpg';
 import bellybox from '@/assets/proj-bellybox.jpg';
 import miniorange from '@/assets/proj-miniorange.jpg';
 
-export const projects = [
+type Proj = {
+  slug: string; title: string; tagline: string; tags: string[]; image: string; bg: string; featured?: boolean;
+};
+export const projects: Proj[] = [
   {
     slug: 'tata-fuel-cost',
     title: 'Tata Power — Fuel Cost Optimization',
@@ -59,9 +62,9 @@ export const projects = [
     image: miniorange,
     bg: 'bg-pale-blue',
   },
-] as const;
+];
 
-export type Project = typeof projects[number];
+export type Project = Proj;
 
 export function SelectedWork() {
   return (
