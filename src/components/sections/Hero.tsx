@@ -28,14 +28,6 @@ export function Hero() {
       <div className="mx-auto grid max-w-7xl grid-cols-1 items-center gap-10 px-6 md:grid-cols-12 md:gap-6 md:px-10">
         {/* Left: copy */}
         <div className="md:col-span-7">
-          <motion.span
-            initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6, ease, delay: 0.15 }}
-            className="pill bg-white/70 backdrop-blur-sm ring-soft text-foreground/70"
-          >
-            <span className="size-1.5 rounded-full bg-coral" /> PM · Founder’s Office · High-agency operator
-          </motion.span>
-
           <motion.h1
             initial={{ opacity: 0, y: 24 }} animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, ease, delay: 0.25 }}
