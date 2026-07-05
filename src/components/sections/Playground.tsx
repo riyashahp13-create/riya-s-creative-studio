@@ -75,7 +75,7 @@ export function Playground() {
                     src={c.image}
                     alt={c.title}
                     loading="lazy"
-                    className="h-full w-full object-cover transition-transform duration-[1.2s] group-hover:scale-105"
+                    className="h-full w-full object-cover transition-transform duration-1000 group-hover:scale-105"
                   />
                 </div>
                 <div className="p-6">
