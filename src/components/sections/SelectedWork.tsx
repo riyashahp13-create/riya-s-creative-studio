@@ -17,7 +17,7 @@ export function SelectedWork() {
             Selected <em className="italic text-coral">work</em>.
           </h2>
           <p className="mx-auto mt-5 max-w-2xl text-pretty text-foreground/65">
-            Skimmable proof of how Riya thinks: problem, role, decisions, stakeholders and outcomes in one glance.
+            Skimmable proof of how I think: problem, role, decisions, stakeholders and outcomes in one glance.
           </p>
         </Reveal>
 

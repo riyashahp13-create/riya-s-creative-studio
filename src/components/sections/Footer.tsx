@@ -31,7 +31,7 @@ export function Footer() {
           </Reveal>
 
           <Reveal delay={0.4} className="mt-12 flex flex-wrap items-center justify-center gap-3">
-            <a className="btn-soft" href="mailto:tbm26riya.shah@mastersunion.org">Email Riya</a>
+            <a className="btn-soft" href="mailto:tbm26riya.shah@mastersunion.org">Email me</a>
             <a className="btn-ghost-soft" href="https://www.linkedin.com/" target="_blank" rel="noreferrer">LinkedIn</a>
             <a className="btn-ghost-soft" href="#top">Resume</a>
             <a className="btn-ghost-soft" href="https://wa.me/916354227873" target="_blank" rel="noreferrer">WhatsApp</a>

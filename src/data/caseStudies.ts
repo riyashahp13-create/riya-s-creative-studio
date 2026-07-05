@@ -38,11 +38,6 @@ export type CaseStudy = {
   sections: Section[];
 };
 
-const lens = {
-  transparent:
-    'No verified performance metrics were supplied for this added project, so the case study keeps outcomes intentionally conservative instead of inventing numbers.',
-};
-
 export const caseStudies: Record<string, CaseStudy> = {
   'asli-world': {
     slug: 'asli-world',
@@ -51,7 +46,7 @@ export const caseStudies: Record<string, CaseStudy> = {
     role: 'Product Lead / end-to-end ownership',
     tags: ['0→1 D2C', 'Product · Growth · Ops', 'Funnel Strategy'],
     thesis:
-      'A live D2C brand where Riya owned the full operating loop: Shopify funnel, Meta Ads, product pages, pricing, vendor sourcing, checkout optimization and revenue experiments.',
+      'A live D2C brand where I owned the full operating loop: Shopify funnel, Meta Ads, product pages, pricing, vendor sourcing, checkout optimization and revenue experiments.',
     image: asli,
     heroBg: 'bg-lavender',
     cardBg: 'bg-lavender',
@@ -77,7 +72,7 @@ export const caseStudies: Record<string, CaseStudy> = {
       {
         heading: 'Overview',
         body: [
-          'Asli World is a live D2C brand built around affordable, high-quality home gadgets. Riya treated it like a product system, not just a store.',
+          'Asli World is a live D2C brand built around affordable, high-quality home gadgets. I treated it like a product system, not just a store.',
         ],
       },
       {
@@ -87,7 +82,7 @@ export const caseStudies: Record<string, CaseStudy> = {
         ],
       },
       {
-        heading: 'Riya’s Role',
+        heading: 'My Role',
         body: [
           'Product Lead with end-to-end ownership across product pages, funnel, ads, vendor sourcing, checkout and pricing experiments.',
         ],
@@ -135,13 +130,13 @@ export const caseStudies: Record<string, CaseStudy> = {
       {
         heading: 'Founder’s Office Lens',
         body: [
-          'It proves operating range. Riya moved across vendors, creatives, ads, pricing, checkout and fulfillment without hiding behind a narrow job description.',
+          'It proves my operating range. I moved across vendors, creatives, ads, pricing, checkout and fulfillment without hiding behind a narrow job description.',
         ],
       },
       {
         heading: 'What this proves',
         body: [
-          'Riya can own an ambiguous commercial goal and turn it into a measurable product, growth and operations system.',
+          'I can own an ambiguous commercial goal and turn it into a measurable product, growth and operations system.',
         ],
       },
     ],
@@ -154,7 +149,7 @@ export const caseStudies: Record<string, CaseStudy> = {
     role: 'Data-driven product and decision-systems owner',
     tags: ['Decision Systems', 'Business Impact', 'Coal Analytics'],
     thesis:
-      'Riya owned the analytical system that helped Tata Power move from manual, experience-led coal decisions to data-backed blending choices across plant divisions.',
+      'I owned the analytical system that helped Tata Power move from manual, experience-led coal decisions to data-backed blending choices across plant divisions.',
     image: tataFuel,
     heroBg: 'bg-beige',
     cardBg: 'bg-beige',
@@ -187,9 +182,9 @@ export const caseStudies: Record<string, CaseStudy> = {
         ],
       },
       {
-        heading: 'Riya’s Role',
+        heading: 'My Role',
         body: [
-          'Riya acted as the data-driven product and decision-systems owner, translating a business cost problem into dashboards, comparisons and blending logic that operations teams could actually use.',
+          'I acted as the data-driven product and decision-systems owner, translating a business cost problem into dashboards, comparisons and blending logic that operations teams could actually use.',
         ],
       },
       {
@@ -228,19 +223,19 @@ export const caseStudies: Record<string, CaseStudy> = {
       {
         heading: 'PM Lens',
         body: [
-          'This shows Riya can turn a broad business pain into a specific decision product with users, workflows, metrics and adoption constraints.',
+          'This shows I can turn a broad business pain into a specific decision product with users, workflows, metrics and adoption constraints.',
         ],
       },
       {
         heading: 'Founder’s Office Lens',
         body: [
-          'The work required influence across plant, fuel and strategy teams without relying on formal authority, which maps directly to special-projects and founder’s office execution.',
+          'The work required me to influence across plant, fuel and strategy teams without relying on formal authority, which maps directly to special-projects and founder’s office execution.',
         ],
       },
       {
         heading: 'What this proves',
         body: [
-          'Riya can build systems that make complex operating decisions clearer, faster and financially meaningful.',
+          'I can build systems that make complex operating decisions clearer, faster and financially meaningful.',
         ],
       },
     ],
@@ -253,7 +248,7 @@ export const caseStudies: Record<string, CaseStudy> = {
     role: 'Decision-systems owner / operations intelligence',
     tags: ['Operations Intelligence', 'Plant Efficiency', 'Decision Support'],
     thesis:
-      'Riya built monitoring and prediction logic for Auxiliary Power Consumption, helping teams move from after-the-fact tracking to proactive reduction.',
+      'I built monitoring and prediction logic for Auxiliary Power Consumption, helping teams move from after-the-fact tracking to proactive reduction.',
     image: tataApc,
     heroBg: 'bg-blush-soft',
     cardBg: 'bg-blush-soft',
@@ -285,9 +280,9 @@ export const caseStudies: Record<string, CaseStudy> = {
         ],
       },
       {
-        heading: 'Riya’s Role',
+        heading: 'My Role',
         body: [
-          'Riya owned the decision-system layer, shaping APC from a technical engineering metric into an actionable operations and business lever.',
+          'I owned the decision-system layer, shaping APC from a technical engineering metric into an actionable operations and business lever.',
         ],
       },
       {
@@ -332,13 +327,13 @@ export const caseStudies: Record<string, CaseStudy> = {
       {
         heading: 'Founder’s Office Lens',
         body: [
-          'This proves Riya can find quiet operational leverage, align technical and business teams, and make a small percentage matter at scale.',
+          'This proves I can find quiet operational leverage, align technical and business teams, and make a small percentage matter at scale.',
         ],
       },
       {
         heading: 'What this proves',
         body: [
-          'Riya can build decision systems that connect plant-level action to financial and capacity outcomes.',
+          'I can build decision systems that connect plant-level action to financial and capacity outcomes.',
         ],
       },
     ],
@@ -351,7 +346,7 @@ export const caseStudies: Record<string, CaseStudy> = {
     role: 'Decision-systems owner / product thinking',
     tags: ['Price Prediction', 'Trading Strategy', 'Revenue Systems'],
     thesis:
-      'Riya designed decision support for commercial and trading teams, improving how bidding decisions were made across Day-Ahead and Real-Time Markets.',
+      'I designed decision support for commercial and trading teams, improving how bidding decisions were made across Day-Ahead and Real-Time Markets.',
     image: tataTrade,
     heroBg: 'bg-sage',
     cardBg: 'bg-sage',
@@ -383,9 +378,9 @@ export const caseStudies: Record<string, CaseStudy> = {
         ],
       },
       {
-        heading: 'Riya’s Role',
+        heading: 'My Role',
         body: [
-          'Riya owned the decision-systems/product-thinking layer, translating market data into views that supported trader judgment instead of replacing it.',
+          'I owned the decision-systems/product-thinking layer, translating market data into views that supported trader judgment instead of replacing it.',
         ],
       },
       {
@@ -430,13 +425,13 @@ export const caseStudies: Record<string, CaseStudy> = {
       {
         heading: 'Founder’s Office Lens',
         body: [
-          'It shows Riya can take a fuzzy commercial mandate and turn it into a working system that business teams can trust.',
+          'It shows I can take a fuzzy commercial mandate and turn it into a working system that business teams can trust.',
         ],
       },
       {
         heading: 'What this proves',
         body: [
-          'Riya can build product-like decision systems that influence revenue without needing direct revenue ownership.',
+          'I can build product-like decision systems that influence revenue without needing direct revenue ownership.',
         ],
       },
     ],
@@ -449,7 +444,7 @@ export const caseStudies: Record<string, CaseStudy> = {
     role: 'Core team / vendor ops / PM thinking',
     tags: ['Marketplace Pilot', 'Vendor Ops', 'User Research'],
     thesis:
-      'Riya worked on the core team of an early pilot, helping turn a food idea into a working subscription-first tiffin marketplace with users, kitchens and riders.',
+      'I worked on the core team of an early pilot, helping turn a food idea into a working subscription-first tiffin marketplace with users, kitchens and riders.',
     image: bellybox,
     heroBg: 'bg-beige',
     cardBg: 'bg-beige',
@@ -467,7 +462,7 @@ export const caseStudies: Record<string, CaseStudy> = {
         { value: '8+', label: 'Riders / partners' },
         { value: '30+', label: 'User interviews and surveys' },
       ],
-      note: 'Riya was part of the core team; this is positioned as operating and PM-thinking work, not founder ownership.',
+      note: 'I was part of the core team; this is positioned as operating and PM-thinking work, not founder ownership.',
     },
     sections: [
       {
@@ -483,9 +478,9 @@ export const caseStudies: Record<string, CaseStudy> = {
         ],
       },
       {
-        heading: 'Riya’s Role',
+        heading: 'My Role',
         body: [
-          'Riya worked with the core team across vendor operations, customer discovery, pricing model thinking and delivery coordination.',
+          'I worked with the core team across vendor operations, customer discovery, pricing model thinking and delivery coordination.',
         ],
       },
       {
@@ -530,13 +525,13 @@ export const caseStudies: Record<string, CaseStudy> = {
       {
         heading: 'Founder’s Office Lens',
         body: [
-          'It proves Riya can operate inside ambiguity where the answer is not a deck but a live supply-demand loop.',
+          'It proves I can operate inside ambiguity where the answer is not a deck but a live supply-demand loop.',
         ],
       },
       {
         heading: 'What this proves',
         body: [
-          'Riya understands that product-market learning comes from users, vendors and operations moving together.',
+          'I understand that product-market learning comes from users, vendors and operations moving together.',
         ],
       },
     ],
@@ -549,7 +544,7 @@ export const caseStudies: Record<string, CaseStudy> = {
     role: 'Business Analyst Intern',
     tags: ['IAM · SSO · MFA', 'Growth', 'Client Execution'],
     thesis:
-      'At MiniOrange, Riya worked where product understanding, growth discovery and client-facing execution met.',
+      'At MiniOrange, I worked where product understanding, growth discovery and client-facing execution met.',
     image: miniorange,
     heroBg: 'bg-pale-blue',
     cardBg: 'bg-pale-blue',
@@ -581,9 +576,9 @@ export const caseStudies: Record<string, CaseStudy> = {
         ],
       },
       {
-        heading: 'Riya’s Role',
+        heading: 'My Role',
         body: [
-          'Riya worked as a Business Analyst Intern, balancing research, growth execution and coordination across Sales, Billing and Support.',
+          'I worked as a Business Analyst Intern, balancing research, growth execution and coordination across Sales, Billing and Support.',
         ],
       },
       {
@@ -628,13 +623,13 @@ export const caseStudies: Record<string, CaseStudy> = {
       {
         heading: 'Founder’s Office Lens',
         body: [
-          'It shows Riya can sit across functions and keep execution moving when client outcomes depend on multiple teams.',
+          'It shows I can sit across functions and keep execution moving when client outcomes depend on multiple teams.',
         ],
       },
       {
         heading: 'What this proves',
         body: [
-          'Riya can connect research, growth and client execution into practical business outcomes.',
+          'I can connect research, growth and client execution into practical business outcomes.',
         ],
       },
     ],
@@ -642,89 +637,100 @@ export const caseStudies: Record<string, CaseStudy> = {
 
   'zuban-ai': {
     slug: 'zuban-ai',
-    title: 'Zuban AI',
-    preview: 'Additional AI project added from the brief; detailed metrics and stack are intentionally not claimed yet.',
-    role: 'AI product project / details to verify',
-    tags: ['AI Product', 'Case Detail Pending', 'No Public Metrics Yet'],
+    title: 'Zubaan AI',
+    preview: 'Multilingual voice assistant prototype for English, Hindi and Spanish conversations with memory across language switches.',
+    role: 'AI product builder / multilingual assistant prototype',
+    tags: ['AI Voice', 'Multilingual UX', 'Memory Systems'],
     thesis:
-      'Zuban AI has been added as an AI project from the supplied brief. The source codebase and prompt did not include verified stack, launch or outcome details, so the case study stays conservative.',
+      'I built Zubaan AI as a multilingual voice assistant prototype that detects language switches, preserves context across turns and responds in the right language without pretending it is production-ready.',
     image: startup,
     heroBg: 'bg-blush-soft',
     cardBg: 'bg-blush-soft',
     facts: [
-      { label: 'Role', value: 'AI product project · details to verify' },
-      { label: 'Stage', value: 'Added from brief; metrics not supplied' },
-      { label: 'Constraint', value: 'No fake tools, usage numbers or outcomes claimed' },
+      { label: 'Role', value: 'AI product builder · multilingual assistant prototype' },
+      { label: 'Stage', value: 'Prototype with deployed browser/text fallback' },
+      { label: 'System', value: 'ASR, language router, memory store, reply engine and TTS path' },
     ],
-    cardMetrics: ['AI project', 'Metrics not supplied', 'Details to verify'],
+    cardMetrics: ['3 languages', 'Global memory layer', 'ASR → LLM → TTS path'],
     outcome: {
-      headline: 'Outcome details are not published yet.',
+      headline: 'A reliable prototype that shows the hard product behavior: language switching with memory.',
       metrics: [
-        { value: 'Not claimed', label: 'Verified usage metrics' },
-        { value: 'Not supplied', label: 'Revenue or adoption outcome' },
-        { value: 'To verify', label: 'Stack and launch details' },
+        { value: '3', label: 'Languages handled: English, Hindi and Spanish' },
+        { value: 'Global', label: 'Memory persisted across language switches' },
+        { value: 'Browser demo', label: 'Text fallback on Vercel; full voice suited locally' },
       ],
-      note: lens.transparent,
+      note: 'I do not claim production adoption or full real-time voice performance. The text/deterministic path is reliable; full ASR, model and TTS latency depends on the local stack.',
     },
     sections: [
       {
         heading: 'Overview',
         body: [
-          'Zuban AI is included as an additional AI project from the brief. This page is structured for a full case study once the user, stack and outcome details are confirmed.',
+          'Zubaan AI is a multilingual voice assistant prototype that handles English, Hindi and Spanish turns, detects code-switching, preserves memory and responds in the appropriate language.',
         ],
       },
       {
         heading: 'Problem',
         body: [
-          'The prompt did not include a verified problem statement. This section should be updated with the exact user pain Zuban AI solves.',
+          'Multilingual users often switch languages mid-task, but assistants can lose context when the language changes. I wanted the assistant to remember details like order IDs, cities, hotel preferences or food choices even when the next turn came in Hindi, English or Spanish.',
         ],
       },
       {
-        heading: 'Riya’s Role',
+        heading: 'My Role',
         body: [
-          'The role was not specified in the supplied source material, so it is not overstated here.',
+          'I scoped and built the prototype pipeline, language-routing behavior, global memory layer, diagnostics and fallback logic so the demo stayed understandable and testable.',
         ],
       },
       {
         heading: 'What I Built / Drove',
         body: [
-          'Build, workflow and stack details should be added once confirmed. No specific tools are claimed without source detail.',
+          [
+            'Microphone-to-ASR path using faster-whisper for the local voice pipeline',
+            'Language router combining ASR output with Hindi/Hinglish, Spanish and English rule markers',
+            'Global memory store for order IDs, email, city, hotel preferences, weather cities and food preferences',
+            'Reply engine with a local LLM path and deterministic fallback for reliable demos',
+            'TTS path planned for Piper, with browser speech/text fallback for the deployed demo',
+          ],
         ],
       },
       {
         heading: 'Key Product Decisions',
         body: [
-          'The key product decision for the portfolio is to keep this project visible but clearly label unverified details instead of inventing proof.',
+          [
+            'Used language-independent memory so context survived language switches',
+            'Selected the reply language from dominant/latest user language instead of forcing one language per session',
+            'Kept deterministic fallback responses so the prototype remained reliable if the local LLM was unavailable',
+            'Kept the Vercel version honest as a browser/text fallback because full microphone ASR/TTS is better suited to a local app',
+          ],
         ],
       },
       {
         heading: 'Stakeholders / Users',
         body: [
-          'Target users were not specified in the source material.',
+          'The users are multilingual customers or operators moving through tasks like order status, hotel booking, food ordering and weather queries while switching between English, Hindi and Spanish.',
         ],
       },
       {
         heading: 'Outcome Metrics',
         body: [
-          lens.transparent,
+          'I do not claim adoption metrics. The proof is a working multilingual prototype with memory, routing, demo scenarios and visible latency/language-switch diagnostics.',
         ],
       },
       {
         heading: 'PM Lens',
         body: [
-          'Once detailed, this should show Riya’s ability to define an AI user problem, scope an MVP and evaluate whether the AI layer creates real utility.',
+          'This shows I can define what the AI actually has to remember, where the language boundary breaks the experience and how to scope an MVP around user behavior instead of model novelty.',
         ],
       },
       {
         heading: 'Founder’s Office Lens',
         body: [
-          'The current value is directional: it signals AI-product interest, but needs confirmed execution detail before it becomes a proof point.',
+          'It shows I can sequence an ambiguous AI idea into a demoable system, make pragmatic tradeoffs and clearly separate prototype capability from production readiness.',
         ],
       },
       {
         heading: 'What this proves',
         body: [
-          'It proves the portfolio is honest about evidence: visible enough to discuss, but not inflated beyond verified facts.',
+          'I can build AI product prototypes responsibly: strong enough to show user value, explicit about limits and grounded in product behavior rather than inflated claims.',
         ],
       },
     ],
@@ -732,56 +738,58 @@ export const caseStudies: Record<string, CaseStudy> = {
 
   'campus-lost-found': {
     slug: 'campus-lost-found',
-    title: 'Campus Lost & Found Portal',
-    preview: 'Instagram-style campus utility concept for posting, discovering and resolving lost-and-found items.',
-    role: 'Product/build project / campus utility',
-    tags: ['Campus Utility', 'Instagram-style UX', 'No Public Metrics Yet'],
+    title: 'Campus Catch',
+    preview: 'Instagram-style campus lost-and-found app for posting items, finding matches and resolving claims with clearer trust signals.',
+    role: 'Product/build owner / campus utility prototype',
+    tags: ['Campus Utility', 'Feed UX', 'Matching Logic'],
     thesis:
-      'A campus lost-and-found portal concept shaped like a familiar social feed, designed to make item discovery and handoff simpler for students.',
+      'I built Campus Catch as a visual-first lost-and-found web app where students can post lost or found items, see likely matches and move through a claim flow instead of relying on scattered chats.',
     image: campus,
     heroBg: 'bg-pale-blue',
     cardBg: 'bg-pale-blue',
     facts: [
-      { label: 'Role', value: 'Product/build project · details to verify' },
-      { label: 'Users', value: 'Campus students and item owners/finders' },
-      { label: 'Stage', value: 'Project details added; metrics not supplied' },
+      { label: 'Role', value: 'Product/build owner · campus utility prototype' },
+      { label: 'Users', value: 'Campus students, item owners and finders' },
+      { label: 'System', value: 'Google sign-in, visual feed, matching, claims and chat flow' },
     ],
-    cardMetrics: ['Campus utility', 'Feed-style UX', 'Metrics not supplied'],
+    cardMetrics: ['6-signal matching', '100-point score cap', 'Claim + chat flow'],
     outcome: {
-      headline: 'Usage outcomes are not published yet.',
+      headline: 'A complete product flow for a campus utility, with adoption metrics intentionally not claimed.',
       metrics: [
-        { value: 'Not claimed', label: 'Verified active users' },
-        { value: 'Not supplied', label: 'Recovered items metric' },
-        { value: 'To verify', label: 'Launch/adoption status' },
+        { value: '6', label: 'Match signals: category, color, keywords, location, date and image similarity' },
+        { value: '100', label: 'Score cap with strong, possible and maybe match labels' },
+        { value: 'Local demo', label: 'localStorage persistence; no fake adoption metrics' },
       ],
-      note: lens.transparent,
+      note: 'The prototype uses client-side auth/profile handling, localStorage persistence and lightweight browser-side image similarity. I would move this to server-verified auth, Postgres/Supabase and proper image embeddings for production.',
     },
     sections: [
       {
         heading: 'Overview',
         body: [
-          'Campus Lost & Found Portal is an Instagram-style campus utility for posting lost/found items, browsing updates and moving toward item recovery.',
+          'Campus Catch is an Instagram-style campus utility for posting lost/found items, browsing a visual feed, seeing likely matches and resolving claims with more structure.',
         ],
       },
       {
         heading: 'Problem',
         body: [
-          'Lost-and-found coordination on campus can get scattered across chats, word of mouth and informal notices. A feed-led portal gives the behavior one visible home.',
+          'Lost-and-found coordination on campus gets scattered across group chats, word of mouth and informal notices. Students need one place where an item can be posted with enough detail, matched against the opposite side and claimed without confusion.',
         ],
       },
       {
-        heading: 'Riya’s Role',
+        heading: 'My Role',
         body: [
-          'The brief identifies this as a project to add; exact ownership and technical details should be confirmed before stronger claims are made.',
+          'I scoped and built the product flow, feed experience, item-posting structure, matching logic, claim arbitration and production-hardening path.',
         ],
       },
       {
         heading: 'What I Built / Drove',
         body: [
           [
-            'Instagram-style feed concept for lost/found posts',
-            'Item discovery and visibility flow',
-            'Handoff-oriented product thinking for item owners and finders',
+            'Google sign-in flow for a campus-style user identity',
+            'Lost/found item posts with photos, details, location, date, category and color',
+            'Instagram-like feed cards with match badges, quick actions, claim states and mobile-friendly flows',
+            'Matching logic that compares only lost items with found items using structured and image signals',
+            'Claim review flow with proof, chat drawer, handover preference and accept/reject states',
           ],
         ],
       },
@@ -789,40 +797,42 @@ export const caseStudies: Record<string, CaseStudy> = {
         heading: 'Key Product Decisions',
         body: [
           [
-            'Used a familiar feed pattern to reduce learning friction',
-            'Centered the experience on quick recognition of item, place and status',
-            'Kept outcome claims separate until launch/adoption metrics are verified',
+            'Made the feed visual-first because recognition matters more than a text-heavy directory',
+            'Compared only opposite item types, lost versus found, to reduce noisy matches',
+            'Used category, color, keyword overlap, location, date proximity and a lightweight browser pHash for scoring',
+            'Added claim arbitration so the poster can review hidden proof, chat, reject or accept; accepting one claim closes the item as reunited',
+            'Chose pHash for the one-day prototype, while noting that production should use CLIP-style vision embeddings and vector search',
           ],
         ],
       },
       {
         heading: 'Stakeholders / Users',
         body: [
-          'Primary users are campus students who lose or find items. Potential stakeholders include student bodies, campus admins or community moderators.',
+          'Primary users are campus students who lose or find items. The workflow also supports posters, claimants and potential campus moderators who need clearer status, proof and handover states.',
         ],
       },
       {
         heading: 'Outcome Metrics',
         body: [
-          lens.transparent,
+          'I do not claim launch or adoption metrics. The proof is workflow depth: sign-in, item posting, visual discovery, match scoring, claim arbitration, chat, simulated notifications and local persistence.',
         ],
       },
       {
         heading: 'PM Lens',
         body: [
-          'This is relevant for PM roles because it turns a common offline pain into a simple workflow with clear user states: lost, found, claimed and resolved.',
+          'This is relevant for PM roles because I turned a common offline pain into a stateful product workflow with clear user states: lost, found, matched, claimed, rejected and reunited.',
         ],
       },
       {
         heading: 'Founder’s Office Lens',
         body: [
-          'It shows the instinct to identify small operational frictions in a community and design lightweight systems around them.',
+          'It shows I can spot a small operational friction, ship a focused demo quickly, make tradeoffs clearly and define the production path for real trust and persistence.',
         ],
       },
       {
         heading: 'What this proves',
         body: [
-          'With verified adoption details added, this can become a concise utility-product case study. For now, it is intentionally framed as a project with unverified outcomes.',
+          'I can build utility products with clear states, trust mechanisms, technical tradeoffs and honest limits instead of overclaiming outcomes.',
         ],
       },
     ],

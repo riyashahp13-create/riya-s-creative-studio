@@ -5,7 +5,7 @@ import { motion } from 'framer-motion';
 const links = [
   { label: 'Home',      to: '/#top' },
   { label: 'Work',      to: '/#work' },
-  { label: 'Why Riya',  to: '/#why' },
+  { label: 'Why me',    to: '/#why' },
   { label: 'Playground',to: '/#playground' },
   { label: 'Contact',   to: '/#contact' },
 ];

@@ -87,7 +87,7 @@ export function Hero() {
             transition={{ duration: 0.7, ease, delay: 0.4 }}
             className="mt-7 max-w-xl text-pretty text-base leading-relaxed text-foreground/70 md:text-lg"
           >
-            Riya builds at the intersection of <strong className="font-medium text-foreground">product, growth, systems</strong> and business impact. From decision systems at Tata Power to 0→1 ventures like Asli World and BellyBox — she’s drawn to messy problems, meaningful ownership, and work that actually changes outcomes.
+            I build at the intersection of <strong className="font-medium text-foreground">product, growth, systems</strong> and business impact. From decision systems at Tata Power to 0→1 ventures like Asli World and BellyBox, I’m drawn to messy problems, meaningful ownership, and work that actually changes outcomes.
           </motion.p>
 
           <motion.div

@@ -33,10 +33,10 @@ export function WhoIsRiya() {
               <span className="pill bg-blush-soft text-foreground/70">A short introduction</span>
             </Reveal>
             <Reveal delay={0.1} as="h2" className="font-display mt-5 text-[clamp(2.5rem,5vw,4.5rem)] font-medium leading-[1] tracking-tight">
-              Who is <em className="italic text-coral">Riya</em>?
+              Who <em className="italic text-coral">am I</em>?
             </Reveal>
             <Reveal delay={0.2} className="mt-7 max-w-md text-pretty text-base leading-relaxed text-foreground/70">
-              She’s always been a doer — from state-level basketball to leading 500-person events, from running 0→1 ventures to designing decision systems inside India’s largest power utility. A jack of many trades who now channels that range into focused, high-impact product and operator work.
+              I’ve always been a doer: from state-level basketball to leading 500-person events, from running 0→1 ventures to designing decision systems inside India’s largest power utility. I’m a jack of many trades who now channels that range into focused, high-impact product and operator work.
             </Reveal>
             <Reveal delay={0.3} className="mt-8 rounded-3xl border border-border/60 bg-white/60 p-6 backdrop-blur">
               <p className="font-display text-2xl italic leading-snug">

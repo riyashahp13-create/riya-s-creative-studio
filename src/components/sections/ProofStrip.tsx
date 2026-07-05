@@ -23,7 +23,7 @@ export function ProofStrip() {
             Outcomes I’ve helped <em className="italic text-blush">drive</em>.
           </h2>
           <p className="mt-4 max-w-xl text-background/65">
-            System-enabled outcomes, measured. Tata numbers reflect business impact unlocked by systems Riya designed and drove with cross-functional teams.
+            System-enabled outcomes, measured. Tata numbers reflect business impact unlocked by systems I designed and drove with cross-functional teams.
           </p>
         </Reveal>
 
